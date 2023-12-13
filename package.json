@@ -1,0 +1,14 @@
+{
+  "name": "meteo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "http-server",
+    "dev": "http-server"
+  },
+
+
+  "author": "",
+  "license": "ISC"
+}

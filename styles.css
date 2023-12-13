@@ -13,7 +13,7 @@ header {
     align-items: center;
     margin-top: 100px;
     margin-bottom: 100px;
-    background-color: aliceblue;
+    background-color: rgba(37, 9, 147, 0.484);
 }
 
 .temperature {
@@ -28,6 +28,10 @@ header {
 .temperature img {
     width : 100%;
     height : 100%;
+}
+
+.minuscule {
+    font-size: 15%;
 }
 
 .previsions img {
