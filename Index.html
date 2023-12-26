@@ -3,12 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/@geoapify/geocoder-autocomplete@^1/styles/minimal.css">
+    <script src="/node_modules/@geoapify/geocoder-autocomplete/dist/geocoder-autocomplete.min.js"></script>
     <link rel="stylesheet" href="styles.css">
     <script type="module" src="main.js"></script>
     <title>Application Météo</title>
 </head>
 <body>
     <header>
+        <div id="autocomplete" class="autocomplete-container"></div>
         <input type = "text" name = "input" id = "input" placeholder="Ville...">
         <button id = "ajouter" type = "button">recherche</button>
     </header>

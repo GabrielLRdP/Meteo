@@ -1,3 +1,18 @@
+import { GeocoderAutocomplete } from '@geoapify/geocoder-autocomplete';
+
+const autocomplete = new GeocoderAutocomplete(
+                        document.getElementById("autocomplete"), 
+                        '6e865bcd5dfb42638a9dd1c74b62c665', 
+                        { /* Geocoder options */ });
+
+autocomplete.on('select', (location) => {
+    // check selected location here 
+});
+
+autocomplete.on('suggestions', (suggestions) => {
+    // process suggestions here
+});
+
 
 //fonction qui récupère les données météorologies actuelles à une position données via l'API OpenWeathermap
 async function getWeatherData() {

@@ -39,3 +39,7 @@ header {
     width: 30px;
 
 }
+
+.autocomplete-container {
+    position: relative;
+}

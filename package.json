@@ -7,8 +7,9 @@
     "start": "http-server",
     "dev": "http-server"
   },
-
-
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@geoapify/geocoder-autocomplete": "^2.0.1"
+  }
 }
